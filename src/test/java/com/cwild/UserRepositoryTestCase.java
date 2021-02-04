@@ -53,6 +53,7 @@ class UserRepositoryTestCase {
 
     repositorySpy.addAll(userList);
 
+    // Testing the test framework, which we only do to demonstrate, that the spy does what it should
     assertTrue(repositorySpy.repository.isEmpty());
 
     ArgumentCaptor<User> userArgumentCaptor = ArgumentCaptor.forClass(User.class);

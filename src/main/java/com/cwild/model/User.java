@@ -1,8 +1,6 @@
 package com.cwild.model;
 
 import com.cwild.exception.NoAgeException;
-import java.util.ArrayList;
-import java.util.List;
 import lombok.Data;
 
 @Data
